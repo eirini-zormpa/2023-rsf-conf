@@ -1,0 +1,217 @@
+---
+title: "How to publish FAIR research outputs"
+author: "Eirini Zormpa"
+institute: "The Alan Turing Institute"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: rsf-logo-white.png
+from: markdown+emoji
+---
+
+## Introductions :wave:
+
+![](https://www.turing.ac.uk/sites/default/files/styles/people/public/2022-06/eirini-zormpa.jpg?itok=Cx2rNcHY){.absolute top=100 right=50 width="320" height="384"}
+
+::: {.column width="60%"}
+**Eirini Zormpa**, Community Manager Open Collaboration @ AIM RSF
+
+Previously:
+
+- Trainer on Research Data Management & Open Science @ Delft University of Technology
+- Doctoral Researcher @ Max Planck Institute for Psycholinguistics
+:::
+
+## Code of Conduct
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Expected behaviours: {.smaller}
+
+- Be respectful of differing opinions and experiences.
+- Participate in an authentic and active way.
+- Attempt collaboration before conflict.
+- Accept responsibility and apologise to those affected.
+
+:::
+
+::: {.column width="50%"}
+
+#### Unacceptable behaviours: {.smaller}
+
+- Discriminatory jokes and language.
+- Sustained disruption of community events.
+
+:::
+
+::::
+
+## Learning objectives
+
+- To expand the definition of "research outputs"
+- To define the FAIR principles
+- To demonstrate how to use a repository for archiving research outputs
+- To explain how to choose a repository
+- To explain the available licences
+
+**By the end of the workshop, you will be able to use a repository to archive research output in a FAIR manner**.
+
+## Advertising scholarship
+
+> An article about computational science in a scientific publication is not the scholarship itself, it is merely **advertising** of the scholarship.
+
+::: {.fragment .fade-down}
+Jon Claerbout, paraphrased in Buckheit & Donoho (1995) ([link](https://doi.org/10.1007/978-1-4612-2544-7_5), [free version](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)).
+:::
+
+::: aside
+Slide credit: [Dr Anna Krystalli](https://annakrystalli.me/talks/reproducibility-value-in-practice.html#13)
+:::
+
+## The actual scholarship
+
+The actual outputs created during a research project will differ but some examples include:
+
+- Preregistrations
+- Presentations and posters on your findings
+- Datasets
+- Protocols and workflows
+- Code (analysis scripts and software packages)
+- Outputs related to other aspects of your work, e.g. educational materials
+
+## Why share all these other outputs?
+
+1. It allows verification of research and builds trust
+2. It avoids duplication of effort and accelerates science
+3. It is good for you as a researcher
+
+## What to share?
+
+The more you can share the better, within reason.
+
+- At a minimum, you should share the data and code needed to confirm your findings.
+- Additionally, a lot of work goes into creating the datasets themselves, e.g. code lists, experimental protocols, consent forms.
+
+**Don't worry that your outputs aren't important! You never know what will end up being useful for others!**
+
+## What (not) to share
+
+The more you can share the better, [**within reason**]{style="color:#F2B705"}.
+
+- Anything that you found online that isn't licensed for reuse - *more on licences later*!
+- An obvious issue is personal data, especially sensitive personal data - *more on this later*!
+- Confidential data that's commercially sensitive or relevant for national security - talk to the data provider about what you **can** share.
+- Really big data (e.g. in quantum computing, cosmology) - think about what data is **necessary** and whether the data can be recreated.
+
+## How to share?
+
+![](FAIRPrinciples.jpg)
+
+::: aside
+ 
+:::
+
+## Findable: Metadata :mag:
+
+First people need to be able to find your outputs!
+
+. . .
+
+For outputs to be findable, they need to be described with **rich metadata**.
+These metadata can be generic (e.g. title, author name, keywords) or discipline-specific.
+
+## Findable: Persistent identifiers :mag:
+
+::: {.column width="50%"}
+Outputs should also be assigned a **unique and persistent identifier**, e.g. a Digital Object Identifier (DOI).
+:::
+
+![](DOI.jpg){.absolute top=150 right=50 width="450" height="304"}
+
+. . .
+
+::: {.column width="50%"}
+Such identifiers make it easy to find outputs, but also to link them with other relevant information (e.g. a publication).
+:::
+
+## Findable: Persistent identifiers :mag:
+
+Persistent identifiers for researchers help if you have a common name or change your name!
+
+![](OrcidIDs.jpg)
+
+
+## Accessible: Define processes :door:
+
+After people have found your outputs they need to be able to access them!
+This could mean that they are publicly available in a **data repository**.
+
+. . .
+
+<br>
+
+### :warning: Sensitive information
+
+Most of you will be working with sensitive personal data that need to stay restricted :locked:
+
+. . .
+
+<br>
+
+In those cases, the **metadata should still be accessible**.
+
+
+## Interoperable :gear:
+
+Data often need to be integrated with other data.
+
+This integration is easier when data make reference to other **relevant datasets**.
+
+. . .
+
+<br>
+
+It's also important to make data available in **open file formats**, that anyone can open.
+
+. . .
+
+<br>
+
+Using **controlled vocabularies** is also highly recommended, if these exist in your field.
+
+
+## FAIR principles: Reusable
+
+
+## Where to share?
+
+```{mermaid}
+flowchart LR
+  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
+```
+
+## Where to share: Supplementary materials
+
+```{mermaid}
+flowchart LR
+  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
+```
+
+Including them in supplementary materials is the **most common** way in which researchers share data.
+Although this may make sense for some disciplines, it is not suitable for many others.
+
+## Where to share: Repositories (discipline-specific or generic)
+
+```{mermaid}
+flowchart LR
+  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
+```
+
+## Where to share: Data or software paper
+
+```{mermaid}
+flowchart LR
+  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
+```
