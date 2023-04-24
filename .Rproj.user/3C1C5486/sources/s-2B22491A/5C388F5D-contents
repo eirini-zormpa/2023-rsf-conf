@@ -9,6 +9,16 @@ format:
 from: markdown+emoji
 ---
 
+<!-- To do
+
+1. Create structure
+2. Write the first draft for each section
+3. Add visualisations where there aren't any
+4. Tighten up script
+5. Fix anything that looks wrong visually
+
+-->
+
 ## Introductions :wave:
 
 ![](https://www.turing.ac.uk/sites/default/files/styles/people/public/2022-06/eirini-zormpa.jpg?itok=Cx2rNcHY){.absolute top=100 right=50 width="320" height="384"}
@@ -96,6 +106,8 @@ The more you can share the better, within reason.
 
 **Don't worry that your outputs aren't important! You never know what will end up being useful for others!**
 
+## Example
+
 ## What (not) to share
 
 The more you can share the better, [**within reason**]{style="color:#F2B705"}.
@@ -136,17 +148,24 @@ Outputs should also be assigned a **unique and persistent identifier**, e.g. a D
 Such identifiers make it easy to find outputs, but also to link them with other relevant information (e.g. a publication).
 :::
 
-## Findable: Persistent identifiers :mag:
+## Findable: Persistent identifiers for people :mag:
 
-Persistent identifiers for researchers help if you have a common name or change your name!
+Persistent identifiers for researchers help if you have a common name or if you change your name!
 
 ![](OrcidIDs.jpg)
+## Task 1
+
+Create an ORCID iD
+
+1. Navigate to https://orcid.org/ on your browser
+2. Select Sign in/Register and then Register as a new user
+3. Fill in the information required
 
 
 ## Accessible: Define processes :door:
 
 After people have found your outputs they need to be able to access them!
-This could mean that they are publicly available in a **data repository**.
+This could mean that they are publicly available in a **repository**.
 
 . . .
 
@@ -165,7 +184,7 @@ In those cases, the **metadata should still be accessible**.
 
 ## Interoperable :gear:
 
-Data often need to be integrated with other data.
+Research outputs often need to be integrated with other data.
 
 This integration is easier when data make reference to other **relevant datasets**.
 
@@ -182,8 +201,9 @@ It's also important to make data available in **open file formats**, that anyone
 Using **controlled vocabularies** is also highly recommended, if these exist in your field.
 
 
-## FAIR principles: Reusable
+## Reusable: Licences :recycle:
 
+## Reusable: Documentation :recycle:
 
 ## Where to share?
 
@@ -209,9 +229,39 @@ flowchart LR
   A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
 ```
 
+## Discipline-specific repositories
+
+
+## Examples of discipline-specific repositories: Medical data
+
+
+## Examples of discipline-specific repositories: Social Sciences data
+
+
+## Examples of discipline-specific repositories: Protocols
+
+
+
+## Generic repositories
+
+
+## Zenodo
+
+
+## Demo of data upload
+
+
 ## Where to share: Data or software paper
 
 ```{mermaid}
 flowchart LR
   A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
 ```
+
+## Examples of data and software papers
+
+## Summary
+
+## Questions?
+
+## Thank you!
