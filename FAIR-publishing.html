@@ -332,27 +332,16 @@
   <p class="institute">The Alan Turing Institute</p>
 </section>
 
-<section class="slide level2">
-
-<!-- To do
-
-1. Create structure
-2. Write the first draft for each section
-3. Add visualisations where there aren't any
-4. Tighten up script
-5. Fix anything that looks wrong visually
-
--->
-</section>
 <section id="introductions" class="slide level2">
 <h2>Introductions <span class="emoji" data-emoji="wave">👋</span></h2>
 <p><img data-src="https://www.turing.ac.uk/sites/default/files/styles/people/public/2022-06/eirini-zormpa.jpg?itok=Cx2rNcHY" class="absolute" style="top: 100px; right: 50px; width: 320px; height: 384px; "></p>
 <div class="column" style="width:60%;">
-<p><strong>Eirini Zormpa</strong>, Community Manager Open Collaboration @ AIM RSF</p>
+<p><strong>Eirini Zormpa</strong>, Community Manager Open Collaboration</p>
+<p><br></p>
 <p>Previously:</p>
 <ul>
-<li>Trainer on Research Data Management &amp; Open Science @ Delft University of Technology</li>
-<li>Doctoral Researcher @ Max Planck Institute for Psycholinguistics</li>
+<li>Trainer on Research Data Management &amp; Open Science @ Delft University of Technology <span class="emoji" data-emoji="computer">💻</span></li>
+<li>Doctoral Researcher @ Max Planck Institute for Psycholinguistics <span class="emoji" data-emoji="brain">🧠</span></li>
 </ul>
 </div>
 </section>
@@ -379,12 +368,12 @@
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
 <ul>
-<li>To expand the definition of “research outputs”</li>
-<li>To define the FAIR principles</li>
-<li>To demonstrate how to use a repository for archiving research outputs</li>
-<li>To explain how to choose a repository</li>
-<li>To explain the available licences</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> To expand the definition of “research outputs”</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> To define the FAIR principles</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> To explain how to choose a repository</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> To demonstrate how to use a repository for archiving research outputs</li>
 </ul>
+<p><br> <br></p>
 <p><strong>By the end of the workshop, you will be able to use a repository to archive research output in a FAIR manner</strong>.</p>
 </section>
 <section id="advertising-scholarship" class="slide level2">
@@ -401,6 +390,7 @@
 </div></aside></section>
 <section id="the-actual-scholarship" class="slide level2">
 <h2>The actual scholarship</h2>
+<!-- TODO: make a nice diagramme of these? -->
 <p>The actual outputs created during a research project will differ but some examples include:</p>
 <ul>
 <li>Preregistrations</li>
@@ -411,43 +401,56 @@
 <li>Outputs related to other aspects of your work, e.g.&nbsp;educational materials</li>
 </ul>
 </section>
-<section id="why-share-all-these-other-outputs" class="slide level2">
-<h2>Why share all these other outputs?</h2>
-<ol type="1">
-<li>It allows verification of research and builds trust</li>
-<li>It avoids duplication of effort and accelerates science</li>
-<li>It is good for you as a researcher</li>
-</ol>
-</section>
 <section id="what-to-share" class="slide level2">
 <h2>What to share?</h2>
-<p>The more you can share the better, within reason.</p>
+<p>The more you can share the better, <span style="color:#F2B705"><strong>within reason</strong></span>.</p>
 <ul>
 <li>At a minimum, you should share the data and code needed to confirm your findings.</li>
-<li>Additionally, a lot of work goes into creating the datasets themselves, e.g.&nbsp;code lists, experimental protocols, consent forms.</li>
+<li>Additionally, a lot of work goes into creating those datasets and scripts, e.g.&nbsp;code lists, experimental protocols, consent forms.</li>
 </ul>
 <p><strong>Don’t worry that your outputs aren’t important! You never know what will end up being useful for others!</strong></p>
 </section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
+<section id="evelinas-example" class="slide level2">
+<h2>Evelina’s example</h2>
+<p><img data-src="https://www.turing.ac.uk/sites/default/files/styles/people/public/2018-06/evelina-gabasova_1000x921_jpg.jpg?itok=SUNC-Irv" class="absolute" style="top: 100px; right: 50px; width: 320px; height: 384px; "></p>
+<div class="column" style="width:60%;">
+<p><strong>Evelina Gabasova</strong>, Principal Research Data Scientist</p>
+<div class="r-stack">
+<p><img data-src="images/evelina-github.png" class="fragment"></p>
+<p><img data-src="images/zenodo-sw.png" class="fragment"></p>
+<p><img data-src="images/gs-sw.png" class="fragment"></p>
+</div>
+</div>
 </section>
+<section id="why-share-all-these-other-outputs" class="slide level2">
+<h2>Why share all these other outputs?</h2>
+
+<img data-src="images/share-work.jpg" class="r-stretch"></section>
 <section id="what-not-to-share" class="slide level2">
 <h2>What (not) to share</h2>
-<p>The more you can share the better, <span style="color:#F2B705"><strong>within reason</strong></span>.</p>
 <ul>
 <li>Anything that you found online that isn’t licensed for reuse - <em>more on licences later</em>!</li>
+</ul>
+<div class="fragment">
+<ul>
 <li>An obvious issue is personal data, especially sensitive personal data - <em>more on this later</em>!</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Confidential data that’s commercially sensitive or relevant for national security - talk to the data provider about what you <strong>can</strong> share.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Really big data (e.g.&nbsp;in quantum computing, cosmology) - think about what data is <strong>necessary</strong> and whether the data can be recreated.</li>
 </ul>
+</div>
 </section>
 <section id="how-to-share" class="slide level2">
 <h2>How to share?</h2>
-<p><img data-src="FAIRPrinciples.jpg"></p>
 
-<aside><div>
-
-</div></aside></section>
+<img data-src="images/FAIRPrinciples.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="findable-metadata" class="slide level2">
 <h2>Findable: Metadata <span class="emoji" data-emoji="mag">🔍</span></h2>
 <p>First people need to be able to find your outputs!</p>
@@ -457,20 +460,16 @@
 </section>
 <section id="findable-persistent-identifiers" class="slide level2">
 <h2>Findable: Persistent identifiers <span class="emoji" data-emoji="mag">🔍</span></h2>
-<div class="column" style="width:50%;">
-<p>Outputs should also be assigned a <strong>unique and persistent identifier</strong>, e.g.&nbsp;a Digital Object Identifier (DOI).</p>
-</div>
-<p><img data-src="DOI.jpg" class="absolute" style="top: 150px; right: 50px; width: 450px; height: 304px; "></p>
-<div class="fragment">
-<div class="column" style="width:50%;">
-<p>Such identifiers make it easy to find outputs, but also to link them with other relevant information (e.g.&nbsp;a publication).</p>
-</div>
-</div>
-</section>
+<p>Outputs should also be assigned a <strong>unique and persistent identifier</strong>, e.g.&nbsp;a Digital Object Identifier (DOI). This makes it easy to find outputs, but also to link them with other relevant information (e.g.&nbsp;a publication).</p>
+
+<img data-src="images/DOI.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="findable-persistent-identifiers-for-people" class="slide level2">
 <h2>Findable: Persistent identifiers for people <span class="emoji" data-emoji="mag">🔍</span></h2>
 <p>Persistent identifiers for researchers help if you have a common name or if you change your name!</p>
-<p><img data-src="OrcidIDs.jpg"> ## Task 1</p>
+
+<img data-src="images/OrcidIDs.jpg" class="r-stretch quarto-figure-center"></section>
+<section id="task-1" class="slide level2">
+<h2>Task 1</h2>
 <p>Create an ORCID iD</p>
 <ol type="1">
 <li>Navigate to https://orcid.org/ on your browser</li>
@@ -484,7 +483,7 @@
 <div class="fragment">
 <p><br></p>
 <h3 id="sensitive-information"><span class="emoji" data-emoji="warning">⚠️</span> Sensitive information</h3>
-<p>Most of you will be working with sensitive personal data that need to stay restricted :locked:</p>
+<p>Most of you will be working with sensitive personal information that need to stay restricted <span class="emoji" data-emoji="lock">🔒</span></p>
 <div class="fragment">
 <p><br></p>
 <p>In those cases, the <strong>metadata should still be accessible</strong>.</p>
@@ -493,23 +492,70 @@
 </section>
 <section id="interoperable" class="slide level2">
 <h2>Interoperable <span class="emoji" data-emoji="gear">⚙️</span></h2>
-<p>Research outputs often need to be integrated with other data.</p>
-<p>This integration is easier when data make reference to other <strong>relevant datasets</strong>.</p>
-<div class="fragment">
-<p><br></p>
-<p>It’s also important to make data available in <strong>open file formats</strong>, that anyone can open.</p>
-</div>
+<p>It’s important to make all your outputs available in <strong>open file formats</strong>, that anyone can open and edit.</p>
 <div class="fragment">
 <p><br></p>
 <p>Using <strong>controlled vocabularies</strong> is also highly recommended, if these exist in your field.</p>
 </div>
 </section>
-<section id="reusable-licences" class="slide level2">
-<h2>Reusable: Licences <span class="emoji" data-emoji="recycle">♻️</span></h2>
-</section>
+<section id="in-how-many-different-ways-can-you-say-female" class="slide level2 smaller">
+<h2>In how many different ways can you say “female”?</h2>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p>18-day pregnant females <br> female (lactating) <br> individual female <br> worker caste (female) <br> 2 yr old female <br> female (pregnant) <br> sex: female <br> 400 yr. old female <br> female (outbred) <br> mare <br> female (other) <br> adult female <br> female parent <br> female (worker) <br> female plant</p>
+</div><div class="column" style="width:25%;">
+<p><b>femal</b> <br> castrate female <br> female with eggs <br> ovigerous female <br> 3 female <br> cf.female <br> female worker <br> oviparous sexual females <br> female (phenotype) <br> cystocarpic female <br> gynoecious <br> thelytoky <br> dikaryon <br> female virgin <br> dioecious female</p>
+</div><div class="column" style="width:25%;">
+<p>femlale <br> female (gynoecious) <br> <b>remale</b> <br> metafemale <br> f <br> <b>femele</b> <br> sterile female <br> famale <br> normal female <br> <b>femail</b> <br> sf <br> female <br> females <br> tetraploid female <br> strictly female females only <br></p>
+</div><div class="column" style="width:25%;">
+<p>worker <br> hexaploid female <br> healthy female <br> female (gynoecious) <br> probably female <br> female (note: this sample was originally provided as a “male” sample and labeled this way in the paper and original submission; however analyses carried out in the meantime clearly show that this sample stems from a female individual)</p>
+</div>
+</div>
+
+<aside><div>
+<p>Adapted from Silvester <em>et al.</em>, 2015.</p>
+</div></aside></section>
+<section id="dates" class="slide level2">
+<h2>Dates</h2>
+<p>To avoid ambiguity, use the <a href="https://datatracker.ietf.org/doc/html/rfc3339">RFC3339</a> standard: <strong>YYYYMMDD</strong>.</p>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Date_format_by_country_revised.svg/1600px-Date_format_by_country_revised.svg.png" width="900" height="500"></p>
+
+<aside><div>
+<p>This <a href="https://en.m.wikipedia.org/wiki/File:Date_format_by_country_revised.svg">image</a> was created for <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> and is used under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA licence</a>.</p>
+</div></aside></section>
 <section id="reusable-documentation" class="slide level2">
 <h2>Reusable: Documentation <span class="emoji" data-emoji="recycle">♻️</span></h2>
+<p>To be able to reuse your work, people need to be able to <em>understand</em> it. This means you need to provide good <strong>documentation</strong>:</p>
+<div class="fragment">
+<p><br></p>
+<p>At a minimum, you should provide a <strong>README</strong> file where you describe what the project is about, how the files are organised and how to reproduce the project</p>
+</div>
 </section>
+<section id="example-of-a-readme-file" class="slide level2">
+<h2>Example of a <a href="(https://www.zenodo.net/record/1411479#.ZEY_V3bMIV-)">README file</a></h2>
+
+<img data-src="images/zenodo-sw.png" class="r-stretch"></section>
+<section id="reusable-usage-licences" class="slide level2">
+<h2>Reusable: Usage licences <span class="emoji" data-emoji="recycle">♻️</span></h2>
+<p>You can’t just use everything that’s online; the creator* of the work holds the copyright to it!</p>
+
+<div class="fragment">
+<p>You need to <strong>tell people what they can do</strong> with your work by providing a licence.</p>
+</div>
+<div class="fragment">
+<p>Usage licences are different for data and for code:</p>
+<ul>
+<li>Commonly used licences for data, presentations, papers etc. are the <a href="https://creativecommons.org/about/cclicenses/">Creative Commons licences</a></li>
+<li>For code, use <a href="https://choosealicense.com/licenses/">OSI-approved licences</a></li>
+</ul>
+</div>
+<aside><div>
+<p>*In fact, it is often your university or institute that holds the copyright to the work you created while working there.</p>
+</div></aside></section>
+<section id="licence-example" class="slide level2">
+<h2>Licence example</h2>
+
+<img data-src="images/zenodo-ttw.png" class="r-stretch"></section>
 <section id="where-to-share" class="slide level2">
 <h2>Where to share?</h2>
 <div class="cell" data-reveal="true">
@@ -529,80 +575,172 @@
 </section>
 <section id="where-to-share-supplementary-materials" class="slide level2">
 <h2>Where to share: Supplementary materials</h2>
-<div class="cell" data-reveal="true">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-2">flowchart LR
-  A(Supplementary materials) --&gt; B(Specialised or generic repository) --&gt; C(Data or software article) 
-</pre>
-<div id="mermaid-tooltip-2" class="mermaidTooltip">
-
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="pros">Pros <span class="emoji" data-emoji="thumbsup">👍</span></h4>
+<ul>
+<li>Convenient for author</li>
+<li>One output to cite (?)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="cons">Cons <span class="emoji" data-emoji="thumbsdown">👎</span></h4>
+<ul>
+<li>Can be hard to find</li>
+<li>Not suitable for all outputs (in terms of privacy, file format, relevance)</li>
+<li>Not very FAIR (no separate PID, licence)</li>
+<li>Sustainability is unclear</li>
+</ul>
 </div>
-<p></p>
 </div>
-</div>
-</div>
-<p>Including them in supplementary materials is the <strong>most common</strong> way in which researchers share data. Although this may make sense for some disciplines, it is not suitable for many others.</p>
 </section>
-<section id="where-to-share-repositories-discipline-specific-or-generic" class="slide level2">
-<h2>Where to share: Repositories (discipline-specific or generic)</h2>
-<div class="cell" data-reveal="true">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-3">flowchart LR
-  A(Supplementary materials) --&gt; B(Specialised or generic repository) --&gt; C(Data or software article) 
-</pre>
-<div id="mermaid-tooltip-3" class="mermaidTooltip">
-
-</div>
-<p></p>
-</div>
+<section id="where-to-share-repositories" class="slide level2">
+<h2>Where to share: Repositories</h2>
+<p>Online storage spaces for sharing research data and other outputs: they can be generic or specific to a discipline or institute.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="pros-1">Pros <span class="emoji" data-emoji="thumbsup">👍</span></h4>
+<ul>
+<li>Provide a DOI or other PID</li>
+<li>Require metadata</li>
+<li>Require a usage licence</li>
+<li>Encourage documentation</li>
+<li>Encourage open file formats</li>
+<li>Continued access</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="cons-1">Cons <span class="emoji" data-emoji="thumbsdown">👎</span></h4>
+<ul>
+<li>Require more knowledge (e.g.&nbsp;to pick a repository, licence etc.)</li>
+<li>Could initially cause confusion in terms of whether the publication or this deposisition should be cited.</li>
+</ul>
 </div>
 </div>
 </section>
 <section id="discipline-specific-repositories" class="slide level2">
 <h2>Discipline-specific repositories</h2>
+<p>Where possible, it’s a good idea to use a disclipline-specific repository, usually for data and publications.</p>
+<div class="fragment">
+<ul>
+<li>The metadata standard is likely to be tailored to the data you work with</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>It is possible that there are restricted access options to account for privacy concerns.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Fewer people may see your data, but they’re more likely to be interested in it.</li>
+</ul>
+</div>
 </section>
-<section id="examples-of-discipline-specific-repositories-medical-data" class="slide level2">
-<h2>Examples of discipline-specific repositories: Medical data</h2>
-</section>
-<section id="examples-of-discipline-specific-repositories-social-sciences-data" class="slide level2">
-<h2>Examples of discipline-specific repositories: Social Sciences data</h2>
-</section>
-<section id="examples-of-discipline-specific-repositories-protocols" class="slide level2">
-<h2>Examples of discipline-specific repositories: Protocols</h2>
-</section>
+<section id="how-to-find-repositories" class="slide level2">
+<h2>How to find repositories?</h2>
+<p><img data-src="images/re3data.png"></p>
+
+<aside><div>
+<p><a href="https://www.re3data.org/">Registry of research data repositories</a></p>
+</div></aside></section>
+<section id="health-data" class="slide level2">
+<h2>Health data</h2>
+<div class="r-stack">
+<p><img data-src="images/hdruk.png" class="fragment"></p>
+<p><img data-src="images/closer.png" class="fragment"></p>
+</div>
+
+<aside><div>
+<p><a href="https://www.healthdatagateway.org/">Health Data Research Innovation Gateway</a>, <a href="https://covid-19.closer.ac.uk/covid-19-survey-data/">Closer</a></p>
+</div></aside></section>
+<section id="other-human-biological-data" class="slide level2">
+<h2>Other human biological data</h2>
+<div class="r-stack">
+<p><img data-src="images/gwas.png" class="fragment"></p>
+<p><img data-src="images/open-fmri.png" class="fragment"></p>
+</div>
+
+<aside><div>
+<p><a href="https://www.ebi.ac.uk/gwas/">GWAS Catalog</a>, <a href="https://openfmri.org/">OpenfMRI</a></p>
+</div></aside></section>
+<section id="social-sciences-data" class="slide level2">
+<h2>Social Sciences data</h2>
+<p><img data-src="images/uk-data-service.png"></p>
+
+<aside><div>
+<p><a href="https://ukdataservice.ac.uk/">UK Data Service</a></p>
+</div></aside></section>
+<section id="protocols" class="slide level2">
+<h2>Protocols</h2>
+<p><img data-src="images/protocols.png"></p>
+
+<aside><div>
+<p><a href="https://www.protocols.io/">protocols.io</a></p>
+</div></aside></section>
 <section id="generic-repositories" class="slide level2">
 <h2>Generic repositories</h2>
+<p>A domain-specific repository is not always available, or it may not make sense for your outputs. In that case there are generic repositories that are domain-agnostic and which accept a broad range of outputs (e.g.&nbsp;from data to illustrations).</p>
 </section>
 <section id="zenodo" class="slide level2">
 <h2>Zenodo</h2>
-</section>
+<p><a href="https://zenodo.org/">Zenodo</a> is an open repository that accepts most research outputs.</p>
+<ul>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Funded by CERN, OpenAIRE, and the European Commission.</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Built on open source infrastructure</li>
+<li><span class="emoji" data-emoji="warning">⚠️</span> Resources will be Open Access - no restricted access option.</li>
+</ul>
+
+<img data-src="images/zenodo.png" class="r-stretch"></section>
+<section id="zenodo-communities" class="slide level2">
+<h2>Zenodo communities</h2>
+
+<img data-src="images/ai-mltc-community.png" class="r-stretch"></section>
 <section id="demo-of-data-upload" class="slide level2">
 <h2>Demo of data upload</h2>
 </section>
+<section id="picking-a-repository" class="slide level2">
+<h2>Picking a repository</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/trust-principles.png"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/trust-principles-explained.png"></p>
+</div>
+</div>
+<aside><div>
+<p>Source: <a href="https://www.rd-alliance.org/trust-principles-rda-community-effort">The TRUST Principles - An RDA Community Effort</a></p>
+</div></aside></section>
 <section id="where-to-share-data-or-software-paper" class="slide level2">
 <h2>Where to share: Data or software paper</h2>
-<div class="cell" data-reveal="true">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-4">flowchart LR
-  A(Supplementary materials) --&gt; B(Specialised or generic repository) --&gt; C(Data or software article) 
-</pre>
-<div id="mermaid-tooltip-4" class="mermaidTooltip">
+<p>For data or software of special importance, you may consider writing a data or software article.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="pros-2">Pros <span class="emoji" data-emoji="thumbsup">👍</span></h4>
+<ul>
+<li>Additional publication</li>
+<li>More space to dig into methodology than in a traditional article</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="cons-2">Cons <span class="emoji" data-emoji="thumbsdown">👎</span></h4>
+<ul>
+<li>More time-consuming</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="example-of-a-data-paper" class="slide level2">
+<h2>Example of a data paper</h2>
+<p><img data-src="images/scientific-data-example.png"></p>
 
-</div>
-<p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="examples-of-data-and-software-papers" class="slide level2">
-<h2>Examples of data and software papers</h2>
-</section>
+<aside><div>
+<p><a href="https://doi.org/10.1038/s41597-023-02125-y">scientific data</a></p>
+</div></aside></section>
+<section id="example-of-a-software-paper" class="slide level2">
+<h2>Example of a software paper</h2>
+<p><img data-src="images/joss-example.png"></p>
+
+<aside><div>
+<p><a href="https://doi.org/10.21105/joss.05153">Journal of Open Source Software</a></p>
+</div></aside></section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
 </section>
@@ -611,8 +749,16 @@
 </section>
 <section id="thank-you" class="slide level2">
 <h2>Thank you!</h2>
+</section>
+<section id="references" class="slide level2 smaller">
+<h2>References</h2>
+<ul>
+<li>Evelina Gabasova. (2016). Star Wars social network (1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1411479</li>
+<li>The Turing Way Community, &amp; Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. https://doi.org/10.5281/zenodo.7587336</li>
+<li></li>
+</ul>
 
-<img src="rsf-logo-white.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<img src="images/rsf-logo-white.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
 </div>
 </section>

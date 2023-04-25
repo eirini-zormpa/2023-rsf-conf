@@ -5,31 +5,25 @@ institute: "The Alan Turing Institute"
 format:
   revealjs:
     theme: [moon, custom.scss]
-    logo: rsf-logo-white.png
+    logo: images/rsf-logo-white.png
+    slide-numner: true
 from: markdown+emoji
 ---
 
-<!-- To do
-
-1. Create structure
-2. Write the first draft for each section
-3. Add visualisations where there aren't any
-4. Tighten up script
-5. Fix anything that looks wrong visually
-
--->
 
 ## Introductions :wave:
 
 ![](https://www.turing.ac.uk/sites/default/files/styles/people/public/2022-06/eirini-zormpa.jpg?itok=Cx2rNcHY){.absolute top=100 right=50 width="320" height="384"}
 
 ::: {.column width="60%"}
-**Eirini Zormpa**, Community Manager Open Collaboration @ AIM RSF
+**Eirini Zormpa**, Community Manager Open Collaboration
+
+<br>
 
 Previously:
 
-- Trainer on Research Data Management & Open Science @ Delft University of Technology
-- Doctoral Researcher @ Max Planck Institute for Psycholinguistics
+- Trainer on Research Data Management & Open Science @ Delft University of Technology :computer:
+- Doctoral Researcher @ Max Planck Institute for Psycholinguistics :brain:
 :::
 
 ## Code of Conduct
@@ -60,11 +54,13 @@ Previously:
 
 ## Learning objectives
 
-- To expand the definition of "research outputs"
-- To define the FAIR principles
-- To demonstrate how to use a repository for archiving research outputs
-- To explain how to choose a repository
-- To explain the available licences
+- :white_check_mark: To expand the definition of "research outputs"
+- :white_check_mark: To define the FAIR principles
+- :white_check_mark: To explain how to choose a repository
+- :white_check_mark: To demonstrate how to use a repository for archiving research outputs
+
+<br>
+<br>
 
 **By the end of the workshop, you will be able to use a repository to archive research output in a FAIR manner**.
 
@@ -82,6 +78,8 @@ Slide credit: [Dr Anna Krystalli](https://annakrystalli.me/talks/reproducibility
 
 ## The actual scholarship
 
+<!-- TODO: make a nice diagramme of these? -->
+
 The actual outputs created during a research project will differ but some examples include:
 
 - Preregistrations
@@ -91,39 +89,58 @@ The actual outputs created during a research project will differ but some exampl
 - Code (analysis scripts and software packages)
 - Outputs related to other aspects of your work, e.g. educational materials
 
-## Why share all these other outputs?
-
-1. It allows verification of research and builds trust
-2. It avoids duplication of effort and accelerates science
-3. It is good for you as a researcher
-
 ## What to share?
-
-The more you can share the better, within reason.
-
-- At a minimum, you should share the data and code needed to confirm your findings.
-- Additionally, a lot of work goes into creating the datasets themselves, e.g. code lists, experimental protocols, consent forms.
-
-**Don't worry that your outputs aren't important! You never know what will end up being useful for others!**
-
-## Example
-
-## What (not) to share
 
 The more you can share the better, [**within reason**]{style="color:#F2B705"}.
 
+- At a minimum, you should share the data and code needed to confirm your findings.
+- Additionally, a lot of work goes into creating those datasets and scripts, e.g. code lists, experimental protocols, consent forms.
+
+**Don't worry that your outputs aren't important! You never know what will end up being useful for others!**
+
+## Evelina's example
+
+![](https://www.turing.ac.uk/sites/default/files/styles/people/public/2018-06/evelina-gabasova_1000x921_jpg.jpg?itok=SUNC-Irv){.absolute top=100 right=50 width="320" height="384"}
+
+::: {.column width="60%"}
+
+**Evelina Gabasova**, Principal Research Data Scientist
+
+::: {.r-stack}
+![](images/evelina-github.png){.fragment}
+
+![](images/zenodo-sw.png){.fragment}
+
+![](images/gs-sw.png){.fragment}
+:::
+
+:::
+
+## Why share all these other outputs?
+
+![](images/share-work.jpg)
+
+
+## What (not) to share
+
 - Anything that you found online that isn't licensed for reuse - *more on licences later*!
+
+. . . 
+
 - An obvious issue is personal data, especially sensitive personal data - *more on this later*!
+
+. . . 
+
 - Confidential data that's commercially sensitive or relevant for national security - talk to the data provider about what you **can** share.
+
+. . . 
+
 - Really big data (e.g. in quantum computing, cosmology) - think about what data is **necessary** and whether the data can be recreated.
 
 ## How to share?
 
-![](FAIRPrinciples.jpg)
+![](images/FAIRPrinciples.jpg){fig-align="center"}
 
-::: aside
- 
-:::
 
 ## Findable: Metadata :mag:
 
@@ -136,23 +153,19 @@ These metadata can be generic (e.g. title, author name, keywords) or discipline-
 
 ## Findable: Persistent identifiers :mag:
 
-::: {.column width="50%"}
 Outputs should also be assigned a **unique and persistent identifier**, e.g. a Digital Object Identifier (DOI).
-:::
+This makes it easy to find outputs, but also to link them with other relevant information (e.g. a publication).
 
-![](DOI.jpg){.absolute top=150 right=50 width="450" height="304"}
+![](images/DOI.jpg){fig-align="center"}
 
-. . .
-
-::: {.column width="50%"}
-Such identifiers make it easy to find outputs, but also to link them with other relevant information (e.g. a publication).
-:::
 
 ## Findable: Persistent identifiers for people :mag:
 
 Persistent identifiers for researchers help if you have a common name or if you change your name!
 
-![](OrcidIDs.jpg)
+![](images/OrcidIDs.jpg){fig-align="center"}
+
+
 ## Task 1
 
 Create an ORCID iD
@@ -173,7 +186,7 @@ This could mean that they are publicly available in a **repository**.
 
 ### :warning: Sensitive information
 
-Most of you will be working with sensitive personal data that need to stay restricted :locked:
+Most of you will be working with sensitive personal information that need to stay restricted :lock:
 
 . . .
 
@@ -184,15 +197,7 @@ In those cases, the **metadata should still be accessible**.
 
 ## Interoperable :gear:
 
-Research outputs often need to be integrated with other data.
-
-This integration is easier when data make reference to other **relevant datasets**.
-
-. . .
-
-<br>
-
-It's also important to make data available in **open file formats**, that anyone can open.
+It's important to make all your outputs available in **open file formats**, that anyone can open and edit.
 
 . . .
 
@@ -200,10 +205,135 @@ It's also important to make data available in **open file formats**, that anyone
 
 Using **controlled vocabularies** is also highly recommended, if these exist in your field.
 
+## In how many different ways can you say "female"? {.smaller}
 
-## Reusable: Licences :recycle:
+:::: {.columns}
+
+::: {.column width="25%"}
+18-day pregnant females <br>
+female (lactating) <br>
+individual female <br>
+worker caste (female) <br>
+2 yr old female <br>
+female (pregnant) <br>
+sex: female <br>
+400 yr. old female <br>
+female (outbred) <br>
+mare <br>
+female (other) <br>
+adult female <br>
+female parent <br>
+female (worker) <br>
+female plant
+:::
+
+::: {.column width="25%"}
+<b>femal</b> <br>
+castrate female <br>
+female with eggs <br>
+ovigerous female <br>
+3 female <br>
+cf.female <br>
+female worker <br>
+oviparous sexual females <br>
+female (phenotype) <br>
+cystocarpic female <br>
+gynoecious <br>
+thelytoky <br>
+dikaryon <br>
+female virgin <br>
+dioecious female
+
+:::
+
+::: {.column width="25%"}
+femlale <br>
+female (gynoecious) <br>
+<b>remale</b> <br>
+metafemale <br>
+f <br>
+<b>femele</b> <br>
+sterile female <br>
+famale <br>
+normal female <br>
+<b>femail</b> <br>
+sf <br>
+female <br>
+females <br>
+tetraploid female <br>
+strictly female
+females only <br>
+:::
+
+::: {.column width="25%"}
+
+worker <br>
+hexaploid female <br>
+healthy female <br>
+female (gynoecious) <br>
+probably female <br>
+female (note: this sample was originally provided as a "male" sample and labeled this way in the paper and original submission; however analyses carried out in the meantime clearly show that this sample stems from a female individual)
+
+:::
+
+
+::::
+
+::: aside
+Adapted from Silvester *et al.*, 2015.
+:::
+
+## Dates
+
+To avoid ambiguity, use the [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339) standard: **YYYYMMDD**.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Date_format_by_country_revised.svg/1600px-Date_format_by_country_revised.svg.png){width=900 height=500}
+
+::: aside
+
+This [image](https://en.m.wikipedia.org/wiki/File:Date_format_by_country_revised.svg) was created for [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) and is used under a [CC-BY-SA licence](https://creativecommons.org/licenses/by-sa/4.0/).
+
+:::
+
 
 ## Reusable: Documentation :recycle:
+
+To be able to reuse your work, people need to be able to *understand* it.
+This means you need to provide good **documentation**:
+
+. . .
+
+<br>
+
+At a minimum, you should provide a **README** file where you describe what the project is about, how the files are organised and how to reproduce the project
+
+## Example of a [README file]((https://www.zenodo.net/record/1411479#.ZEY_V3bMIV-))
+
+![](images/zenodo-sw.png)
+
+
+## Reusable: Usage licences :recycle:
+
+You can't just use everything that's online; the creator* of the work holds the copyright to it!
+
+::: aside
+*In fact, it is often your university or institute that holds the copyright to the work you created while working there.
+:::
+
+. . .
+
+You need to **tell people what they can do** with your work by providing a licence.
+
+. . .
+
+Usage licences are different for data and for code:
+
+- Commonly used licences for data, presentations, papers etc. are the [Creative Commons licences](https://creativecommons.org/about/cclicenses/)
+- For code, use [OSI-approved licences](https://choosealicense.com/licenses/)
+
+## Licence example
+
+![](images/zenodo-ttw.png)
 
 ## Where to share?
 
@@ -214,54 +344,227 @@ flowchart LR
 
 ## Where to share: Supplementary materials
 
-```{mermaid}
-flowchart LR
-  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
-```
+:::: {.columns}
 
-Including them in supplementary materials is the **most common** way in which researchers share data.
-Although this may make sense for some disciplines, it is not suitable for many others.
+::: {.column width="50%"}
 
-## Where to share: Repositories (discipline-specific or generic)
+#### Pros :thumbsup:
 
-```{mermaid}
-flowchart LR
-  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
-```
+- Convenient for author
+- One output to cite (?)
+
+:::
+
+::: {.column width="50%"}
+
+#### Cons :thumbsdown:
+
+- Can be hard to find
+- Not suitable for all outputs (in terms of privacy, file format, relevance)
+- Not very FAIR (no separate PID, licence)
+- Sustainability is unclear
+
+:::
+
+::::
+
+## Where to share: Repositories
+
+Online storage spaces for sharing research data and other outputs: they can be generic or specific to a discipline or institute.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Pros :thumbsup:
+
+- Provide a DOI or other PID
+- Require metadata
+- Require a usage licence
+- Encourage documentation
+- Encourage open file formats
+- Continued access
+
+:::
+
+::: {.column width="50%"}
+
+#### Cons :thumbsdown:
+
+- Require more knowledge (e.g. to pick a repository, licence etc.)
+- Could initially cause confusion in terms of whether the publication or this deposisition should be cited.
+
+:::
+
+::::
+
 
 ## Discipline-specific repositories
 
+Where possible, it's a good idea to use a disclipline-specific repository, usually for data and publications.
 
-## Examples of discipline-specific repositories: Medical data
+. . . 
 
+- The metadata standard is likely to be tailored to the data you work with
 
-## Examples of discipline-specific repositories: Social Sciences data
+. . .
 
+- It is possible that there are restricted access options to account for privacy concerns.
 
-## Examples of discipline-specific repositories: Protocols
+. . .
 
+- Fewer people may see your data, but they're more likely to be interested in it.
+
+## How to find repositories?
+
+![](images/re3data.png)
+
+::: aside
+[Registry of research data repositories](https://www.re3data.org/)
+:::
+
+## Health data
+
+::: {.r-stack}
+
+![](images/hdruk.png){.fragment}
+
+![](images/closer.png){.fragment}
+
+:::
+
+::: aside
+[Health Data Research Innovation Gateway](https://www.healthdatagateway.org/), [Closer](https://covid-19.closer.ac.uk/covid-19-survey-data/)
+:::
+
+## Other human biological data
+
+::: {.r-stack}
+
+![](images/gwas.png){.fragment}
+
+![](images/open-fmri.png){.fragment}
+
+:::
+
+::: aside
+[GWAS Catalog](https://www.ebi.ac.uk/gwas/), [OpenfMRI](https://openfmri.org/)
+:::
+
+## Social Sciences data
+
+![](images/uk-data-service.png)
+
+::: aside
+[UK Data Service](https://ukdataservice.ac.uk/)
+:::
+
+## Protocols
+
+![](images/protocols.png)
+
+::: aside
+[protocols.io](https://www.protocols.io/)
+:::
 
 
 ## Generic repositories
 
+A domain-specific repository is not always available, or it may not make sense for your outputs.
+In that case there are generic repositories that are domain-agnostic and which accept a broad range of outputs (e.g. from data to illustrations).
 
 ## Zenodo
 
+[Zenodo](https://zenodo.org/) is an open repository that accepts most research outputs.
+
+- :white_check_mark: Funded by CERN, OpenAIRE, and the European Commission.
+- :white_check_mark: Built on open source infrastructure
+- :warning: Resources will be Open Access - no restricted access option.
+
+![](images/zenodo.png)
+
+
+
+## Zenodo communities
+
+![](images/ai-mltc-community.png)
 
 ## Demo of data upload
 
 
+## Picking a repository
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](images/trust-principles.png)
+:::
+
+::: aside
+Source: [The TRUST Principles - An RDA Community Effort](https://www.rd-alliance.org/trust-principles-rda-community-effort)
+:::
+
+::: {.column width="60%"}
+![](images/trust-principles-explained.png)
+
+:::
+
+::::
+
+
+
 ## Where to share: Data or software paper
 
-```{mermaid}
-flowchart LR
-  A(Supplementary materials) --> B(Specialised or generic repository) --> C(Data or software article) 
-```
+For data or software of special importance, you may consider writing a data or software article.
 
-## Examples of data and software papers
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Pros :thumbsup:
+
+- Additional publication
+- More space to dig into methodology than in a traditional article
+
+:::
+
+
+::: {.column width="50%"}
+
+#### Cons :thumbsdown:
+
+- More time-consuming
+
+:::
+
+::::
+
+
+## Example of a data paper
+
+![](images/scientific-data-example.png)
+
+::: aside
+[scientific data](https://doi.org/10.1038/s41597-023-02125-y)
+:::
+
+## Example of a software paper
+
+![](images/joss-example.png)
+
+::: aside
+[Journal of Open Source Software](https://doi.org/10.21105/joss.05153)
+:::
 
 ## Summary
 
 ## Questions?
 
 ## Thank you!
+
+## References {.smaller}
+
+- Evelina Gabasova. (2016). Star Wars social network (1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1411479
+- The Turing Way Community, & Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. https://doi.org/10.5281/zenodo.7587336
+- 

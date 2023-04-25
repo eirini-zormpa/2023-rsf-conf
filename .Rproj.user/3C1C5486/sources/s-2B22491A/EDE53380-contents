@@ -8,6 +8,8 @@ $code-color: #F2B705;
 $code-block-bg: #F2B705;
 $code-block-border-color: #000000;
 
+$presentation-font-size-root: 40px;
+
 /*-- scss:rules --*/
 
 .reveal .slide-number {
