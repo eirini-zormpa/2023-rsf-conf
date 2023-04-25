@@ -3,7 +3,7 @@
     "path": "~/Documents/2023-rsf-conf/FAIR-publishing.qmd",
     "project_path": "FAIR-publishing.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2417668546",
     "contents": "",
     "dirty": false,
     "created": 1681212883245.0,
@@ -12,17 +12,17 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "39,0",
-        "scrollLine": "29",
+        "cursorPosition": "165,27",
+        "scrollLine": "156",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1682458371,
+    "lastKnownWriteTime": 1682459402,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1682458371678,
+    "last_content_update": 1682459402978,
     "read_only": false,
     "read_only_alternatives": []
 }

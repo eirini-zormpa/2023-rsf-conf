@@ -318,6 +318,8 @@
       margin-right: 0; 
     }
   </style>
+  <link href="FAIR-publishing_files/libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+  <script src="FAIR-publishing_files/libs/countdown-0.4.0/countdown.js"></script>
   <script src="FAIR-publishing_files/libs/quarto-diagram/mermaid.min.js"></script>
   <script src="FAIR-publishing_files/libs/quarto-diagram/mermaid-init.js"></script>
   <link href="FAIR-publishing_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -469,11 +471,19 @@
 <p>Persistent identifiers for researchers help if you have a common name or if you change your name!</p>
 
 <img data-src="images/OrcidIDs.jpg" class="r-stretch quarto-figure-center"></section>
-<section id="task-1" class="slide level2">
-<h2>Task 1</h2>
-<p>Create an ORCID iD</p>
+<section id="task-create-an-orcid-id" class="slide level2" data-background-color="#F2B705">
+<h2>Task: Create an ORCID iD</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_def11bea" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>5 minutes</strong></p>
 <ol type="1">
-<li>Navigate to https://orcid.org/ on your browser</li>
+<li>Navigate to <a href="https://orcid.org/">https://orcid.org/</a> on your browser</li>
 <li>Select Sign in/Register and then Register as a new user</li>
 <li>Fill in the information required</li>
 </ol>
@@ -974,6 +984,48 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

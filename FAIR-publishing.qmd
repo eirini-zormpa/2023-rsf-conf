@@ -156,11 +156,16 @@ Persistent identifiers for researchers help if you have a common name or if you 
 ![](images/OrcidIDs.jpg){fig-align="center"}
 
 
-## Task 1
+## Task: Create an ORCID iD {background-color="#F2B705"}
 
-Create an ORCID iD
+```{r}
+library(countdown)
+countdown(minutes = 5)
+```
 
-1. Navigate to https://orcid.org/ on your browser
+:alarm_clock: **5 minutes**
+
+1. Navigate to [https://orcid.org/](https://orcid.org/) on your browser
 2. Select Sign in/Register and then Register as a new user
 3. Fill in the information required
 
