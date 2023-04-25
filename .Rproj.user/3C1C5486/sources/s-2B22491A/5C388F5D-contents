@@ -86,7 +86,11 @@ The more you can share the better, [**within reason**]{style="color:#F2B705"}.
 - At a minimum, you should share the data and code needed to confirm your findings.
 - Additionally, a lot of work goes into creating those datasets and scripts, e.g. code lists, experimental protocols, consent forms.
 
-**Don't worry that your outputs aren't important! You never know what will end up being useful for others!**
+<br>
+
+<br>
+
+**Don't worry that your outputs aren't important! [You never know what will end up being useful for others!]{style="color:#F2B705"}**
 
 ## Evelina's example
 
@@ -223,7 +227,7 @@ female plant
 :::
 
 ::: {.column width="25%"}
-<b>femal</b> <br>
+femal <br>
 castrate female <br>
 female with eggs <br>
 ovigerous female <br>
@@ -244,14 +248,14 @@ dioecious female
 ::: {.column width="25%"}
 femlale <br>
 female (gynoecious) <br>
-<b>remale</b> <br>
+remale <br>
 metafemale <br>
 f <br>
-<b>femele</b> <br>
+femele <br>
 sterile female <br>
 famale <br>
 normal female <br>
-<b>femail</b> <br>
+femail <br>
 sf <br>
 female <br>
 females <br>
@@ -268,6 +272,84 @@ healthy female <br>
 female (gynoecious) <br>
 probably female <br>
 female (note: this sample was originally provided as a "male" sample and labeled this way in the paper and original submission; however analyses carried out in the meantime clearly show that this sample stems from a female individual)
+
+:::
+
+
+::::
+
+::: aside
+Adapted from Silvester *et al.*, 2015.
+:::
+
+## In how many different ways can you say "female"? {.smaller}
+
+:::: {.columns}
+
+::: {.column width="25%"}
+18-day pregnant females <br>
+female (lactating) <br>
+individual female <br>
+worker caste (female) <br>
+2 yr old female <br>
+female (pregnant) <br>
+sex: female <br>
+400 yr. old female <br>
+female (outbred) <br>
+mare <br>
+female (other) <br>
+adult female <br>
+female parent <br>
+female (worker) <br>
+female plant
+:::
+
+::: {.column width="25%"}
+[femal]{style="color:#F2B705"} <br>
+castrate female <br>
+female with eggs <br>
+ovigerous female <br>
+3 female <br>
+cf.female <br>
+female worker <br>
+oviparous sexual females <br>
+female (phenotype) <br>
+cystocarpic female <br>
+gynoecious <br>
+thelytoky <br>
+dikaryon <br>
+female virgin <br>
+dioecious female
+
+:::
+
+::: {.column width="25%"}
+[femlale]{style="color:#F2B705"} <br>
+female (gynoecious) <br>
+[remale]{style="color:#F2B705"} <br>
+metafemale <br>
+f <br>
+[femele]{style="color:#F2B705"} <br>
+sterile female <br>
+[famale]{style="color:#F2B705"} <br>
+normal female <br>
+[femail]{style="color:#F2B705"} <br>
+sf <br>
+female <br>
+females <br>
+tetraploid female <br>
+strictly female
+females only <br>
+:::
+
+::: {.column width="25%"}
+
+worker <br>
+hexaploid female <br>
+healthy female <br>
+female (gynoecious) <br>
+probably female <br>
+[female (note: this sample was originally provided as a "male" sample and labeled this way in the paper and original submission; however analyses carried out in the meantime clearly show that this sample stems from a female individual)]{style="color:#F2B705"}
 
 :::
 
@@ -329,6 +411,14 @@ Usage licences are different for data and for code:
 ## Licence example
 
 ![](images/zenodo-ttw.png)
+
+## Creative Commons (CC) licences
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a5/CC_License_Freedom_Scale_Chart.png?20161006115208){fig-align="center"}
+
+::: {style="font-size: 60%;"}
+Source: [How to attribute Creative Commons photos by Foter](https://foter.com/blog/how-to-attribute-creative-commons-photos/)
+:::
 
 ## Where to share?
 
@@ -509,7 +599,6 @@ Source: [The TRUST Principles - An RDA Community Effort](https://www.rd-alliance
 ::::
 
 
-
 ## Where to share: Data or software paper
 
 For data or software of special importance, you may consider writing a data or software article.
@@ -556,11 +645,18 @@ For data or software of special importance, you may consider writing a data or s
 
 ## Summary
 
-## Questions?
+- There are more research outputs worth publishing than the traditional paper!
+- These outputs should be published in accordance with the FAIR principles.
+- Outputs don't need to be open to be FAIR.
+- Repositories (discipline-specific or generic) are a great place to publish your outputs.
+- Data or software papers may be suitable for more impactful outputs.
 
 ## Thank you!
 
+![](images/thank-you.jpg){fig-align="center"}
+
 ## References {.smaller}
+- Buckheit, J.B., Donoho, D.L. (1995). WaveLab and Reproducible Research. In: Antoniadis, A., Oppenheim, G. (eds) Wavelets and Statistics. Lecture Notes in Statistics, vol 103. Springer, New York, NY. [https://doi.org/10.1007/978-1-4612-2544-7_5](https://doi.org/10.1007/978-1-4612-2544-7_5)
 - Ding, K., Zhou, M., Wang, H. et al. A Large-scale Synthetic Pathological Dataset for Deep Learning-enabled Segmentation of Breast Cancer. Sci Data 10, 231 (2023). [https://doi.org/10.1038/s41597-023-02125-y](https://doi.org/10.1038/s41597-023-02125-y)
 - Evelina Gabasova. (2016). Star Wars social network (1.0.1) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1411479](https://doi.org/10.5281/zenodo.1411479).
 - Hansen et al., (2023). TextDescriptives: A Python package for calculating a large variety of metrics from text. Journal of Open Source Software, 8(84), 5153, [https://doi.org/10.21105/joss.05153](https://doi.org/10.21105/joss.05153).
