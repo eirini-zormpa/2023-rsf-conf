@@ -559,7 +559,10 @@ For data or software of special importance, you may consider writing a data or s
 ## Thank you!
 
 ## References {.smaller}
+- Ding, K., Zhou, M., Wang, H. et al. A Large-scale Synthetic Pathological Dataset for Deep Learning-enabled Segmentation of Breast Cancer. Sci Data 10, 231 (2023). [https://doi.org/10.1038/s41597-023-02125-y](https://doi.org/10.1038/s41597-023-02125-y)
+- Evelina Gabasova. (2016). Star Wars social network (1.0.1) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1411479](https://doi.org/10.5281/zenodo.1411479).
+- Hansen et al., (2023). TextDescriptives: A Python package for calculating a large variety of metrics from text. Journal of Open Source Software, 8(84), 5153, [https://doi.org/10.21105/joss.05153](https://doi.org/10.21105/joss.05153).
+- Lin, D., Crabtree, J., Dillo, I. et al. The TRUST Principles for digital repositories. Sci Data 7, 144 (2020). [https://doi.org/10.1038/s41597-020-0486-7](https://doi.org/10.1038/s41597-020-0486-7).
+- Silvester, N., B. Alako, C. Amid, et al. (2015). Content discovery and retrieval services at the European Nucleotide Archive. Vol. 43 , pp. D23-D29. [DOI: 10.1093/nar/gku1129](https://doi.org/10.1093/nar/gku1129).
+- The Turing Way Community, & Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. [https://doi.org/10.5281/zenodo.7587336](https://doi.org/10.5281/zenodo.7587336).
 
-- Evelina Gabasova. (2016). Star Wars social network (1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1411479
-- The Turing Way Community, & Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. https://doi.org/10.5281/zenodo.7587336
-- 
