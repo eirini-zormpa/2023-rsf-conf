@@ -187,7 +187,7 @@ Most of you will be working with sensitive personal information that need to sta
 
 <br>
 
-In those cases, the **metadata should still be accessible**.
+In those cases, the **access method should be described** and the **metadata should still be accessible**.
 
 
 ## Interoperable :gear:
