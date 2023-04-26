@@ -3,10 +3,10 @@ This repository contains the slides for the *How to publish FAIR research output
 The session tool place on 27 April at 14:30 BST.
 
 ## Learning objectives
-✅ To expand the definition of “research outputs”
-✅ To define the FAIR principles
-✅ To explain how to choose a repository
-✅ To demonstrate how to use a repository for archiving research outputs
+- ✅ To expand the definition of “research outputs”
+- ✅ To define the FAIR principles
+- ✅ To explain how to choose a repository
+- ✅ To demonstrate how to use a repository for archiving research outputs
 
 These slides are partly based on the slides used for a workshop on [FAIR and Frictionless workflows for tabular data](https://github.com/eirini-zormpa/frictionless-data-workshop).
 
