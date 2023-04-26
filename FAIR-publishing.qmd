@@ -66,9 +66,8 @@ Jon Claerbout, paraphrased in Buckheit & Donoho (1995) ([link](https://doi.org/1
 Slide credit: [Dr Anna Krystalli](https://annakrystalli.me/talks/reproducibility-value-in-practice.html#13)
 :::
 
-## The actual scholarship
 
-<!-- TODO: make a nice diagramme of these? -->
+## The actual scholarship
 
 The actual outputs created during a research project will differ but some examples include:
 
