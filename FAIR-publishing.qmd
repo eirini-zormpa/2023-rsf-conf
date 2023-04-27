@@ -575,8 +575,9 @@ In that case there are generic repositories that are domain-agnostic and which a
 
 ![](images/ai-mltc-community.png)
 
-## Demo of data upload
+## Demo of data upload {background-color="#F2B705"}
 
+Just watch me for now :computer::eyes:
 
 ## Picking a repository
 
