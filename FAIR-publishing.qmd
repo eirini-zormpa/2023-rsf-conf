@@ -565,7 +565,7 @@ In that case there are generic repositories that are domain-agnostic and which a
 
 - :white_check_mark: Funded by CERN, OpenAIRE, and the European Commission.
 - :white_check_mark: Built on open source infrastructure
-- :warning: Resources will be Open Access - no restricted access option.
+- :warning: Most resources are Open Access, though embargo and restricted options exist.
 
 ![](images/zenodo.png)
 
