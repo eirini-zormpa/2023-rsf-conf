@@ -10,6 +10,9 @@ The session tool place on 27 April at 14:30 BST.
 
 These slides are partly based on the slides used for a workshop on [FAIR and Frictionless workflows for tabular data](https://github.com/eirini-zormpa/frictionless-data-workshop).
 
+The images folder includes visualisation created by Scriberia for the Turing Way for convenience.
+If you would like to reuse any of these visualisations, please refer to the [Zenodo repository where they are archived](https://zenodo.org/record/7587336#.ZEot1HbMIV8).
+
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
 [![CC BY 4.0][cc-by-image]][cc-by]
